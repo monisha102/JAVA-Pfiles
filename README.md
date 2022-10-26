@@ -21,3 +21,21 @@ So, arraylst is better than vector.
 4)lnkdlist works on basis of doubly linkedlist..here insertion deletion is easy,but in arraylst is diffclt.but in case of access the scenario is reversed.
 
 5)Arraylst not synchronised but vector sync.
+
+------About Hashset and Hashmap:--------
+
+*hashset uses hash table and does hashing to store elements while hashmap stores index and value.
+
+*both are non sync and does not maintain order while inserting.
+
+*hashset uses add() while hashmap uses put();
+
+*hashset is good for searching while hashmap is good for deleting or updating data.
+
+*hashset stores only unique values and hashmap stores unique key; if hashmap gets duplicate key, it replaces the previous key.
+
+*both can have null values.
+
+*Hashset(extends)--->Abstractset(Inmplements)--->set(extends)--->collection(extendes)--->Iterable
+
+**Hashset(extends)--->Abstractset(Inmplements)--->MAP
